@@ -1,0 +1,104 @@
+# .gitignore for Unreal Engine Projects
+
+# Ignore all intermediate files and binaries
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build-specific files
+*.pdb
+*.obj
+*.exe
+*.dll
+*.log
+*.app
+*.dylib
+*.class
+*.jar
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Linux system files
+*~
+
+# Ignore temporary files
+*.tmp
+
+# Ignore Build artifacts
+Build/
+
+# Ignore compiled Blueprints
+*.generated.cpp
+*.generated.h
+
+# Ignore project-specific local settings
+*.opensdf
+*.sdf
+*.sln
+
+# Ignore IDE config folders
+.idea/
+
+# Ignore optional but safe:
+*.VC.db
+*.VC.opendb
+
+# Ignore backup files
+*.bak
+
+# Ignore crash reports and logs
+*.crash
+*.dmp
+
+# Ignore Unreal Plugin temp folders
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Ignore platform-specific output
+Saved/Config/Windows/
+Saved/Config/WindowsEditor/
+Saved/Config/Mac/
+Saved/Config/Linux/
+
+# Optional: Ignore local shader cache
+Engine/DerivedDataCache/
+
+# Optional: Ignore .uproject binaries and intermediate
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata/
+*.opensdf
+*.sdf
+*.VC.db
+
+# If using Rider
+.idea/
+*.sln.iml
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Optional: Pak files and cooked content
+*.pak
+*.ucas
+*.utoc
+*.sig
+*.pak.info
+
+# Optional: Ignore UAsset and UExp files if not collaborating on content
+# Content/**/*.uasset
+# Content/**/*.umap
